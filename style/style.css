@@ -193,6 +193,7 @@ button{
     padding: 40px 0 35px 40px;
     background: #FFFFFF;
     box-shadow: 0 13px 19px rgba(0, 0, 0, 0.07);
+    transition: 0.5s;
 }
 .hero_card_title{
     font-weight: bold;
@@ -489,6 +490,7 @@ button{
     background: #FFFFFF;
     height: 283px;
     border: 1px solid #f9f9f9;
+    transition: .5s;
 }
 .contact4_email{
     font-weight: 600;
