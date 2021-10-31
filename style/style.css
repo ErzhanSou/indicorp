@@ -59,6 +59,10 @@ button{
     display: flex;
     align-items: center;
 }
+
+.mobile_nav_bar{
+    display: none;
+}
 .header{
     position: absolute;
     z-index: 1;
@@ -117,7 +121,9 @@ button{
     letter-spacing: 0.1px;
     color: #252B42;
 }
-
+.search_bar{
+    display: none;
+}
 
 .hero{
     position: relative;
@@ -143,6 +149,9 @@ button{
     letter-spacing: 0.2px;
     color: #737373;
     margin: 35px 0;
+}
+.mobile_hero_sub_title{
+    display: none;
 }
 .hero_btn1{
     width: 185px;
@@ -250,7 +259,7 @@ button{
     margin: 10px 0 50px;
 }
 .feat_card{
-    max-width: 230px;
+    width: 230px;
     height: 179px;
     display: flex;
     flex-direction: column;
@@ -289,8 +298,8 @@ button{
     padding: 125px 0 101px;
 }
 .feat7_card{
-    max-width: 230px;
-    max-height: 341px;
+    width: 230px;
+    height: 341px;
     background: #FFFFFF;
 }
 .feat7_title{
@@ -331,6 +340,14 @@ button{
 .about2_title{
     width: 468px;
     text-align: center;
+}
+.mobile_feat_title{
+    display: none;
+    font-size: 40px;
+    line-height: 57px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #252B42;
 }
 .about2_desc{
     margin: 15px 0 100px;
